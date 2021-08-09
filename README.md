@@ -34,8 +34,22 @@ Features:
 <br>
 
 **360-Indoor**
+360-Indoor: Towards Learning Real-World Objects in 360° Indoor Equirectangular Images<br>
+_Shih-Han Chou, Cheng Sun, Wen-Yen Chang, Wan-Ting Hsu, Min Sun, Jianlong Fu_<br>
+Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2020.<br>
+[[Project](https://aliensunmin.github.io/project/360-dataset/)] [[Data](https://forms.gle/qvNBFHyKX75bThtQA)]
 
-**Im2Pano3D**
+Features:
+- _Real_ indoor scenes
+- Information:
+  - Object annotations (37 cateogories, incld. light)  
+
+**Im2Pano3D (RGB-D Panorama).**
+Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View <br>
+_Shuran Song, Andy Zeng, Angel X. Chang, Manolis Savva, Silvio Savarese, Thomas Funkhouser_ <br>
+[[Project](http://im2pano3d.cs.princeton.edu/)]
+
+<br>
 
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling<br>
