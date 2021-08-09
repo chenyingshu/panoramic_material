@@ -37,18 +37,12 @@ Features:
 360-Indoor: Towards Learning Real-World Objects in 360° Indoor Equirectangular Images<br>
 _Shih-Han Chou, Cheng Sun, Wen-Yen Chang, Wan-Ting Hsu, Min Sun, Jianlong Fu_<br>
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2020.<br>
-[[Project](https://aliensunmin.github.io/project/360-dataset/)] [[Data](https://forms.gle/qvNBFHyKX75bThtQA)]
+[[Project](https://aliensunmin.github.io/project/360-dataset/)] [[Data](https://forms.gle/qvNBFHyKX75bThtQA)] 
 
 Features:
 - _Real_ indoor scenes
 - Information:
   - Object annotations (37 cateogories, incld. light)  
-
-**Im2Pano3D (RGB-D Panorama).**
-Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View <br>
-_Shuran Song, Andy Zeng, Angel X. Chang, Manolis Savva, Silvio Savarese, Thomas Funkhouser_ <br>
-[[Project](http://im2pano3d.cs.princeton.edu/)]
-
 <br>
 
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
@@ -72,7 +66,20 @@ Features:
 
 **Matterport3D**
 
-**Matterport3D Variants**
+**Matterport3D Variants - Im2Pano3D (RGB-D Panorama).**<br>
+Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View <br>
+_Shuran Song, Andy Zeng, Angel X. Chang, Manolis Savva, Silvio Savarese, Thomas Funkhouser_ <br>
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2018.<br>
+[[Project](http://im2pano3d.cs.princeton.edu/)] [[Code](https://github.com/shurans/im2pano3d/)] [[Paper](https://arxiv.org/abs/1712.04569)]
+
+Features:
+- Generate RGB-D Panorama imaes from SUNCG dataset(Not available now) and [Matterport](https://niessner.github.io/Matterport/) dataset.
+- Information:
+  -  color image
+  -  semantic segmentation
+  -  depth
+  -  plane encoding (plane distance and surface normal)
+<br>
 
 **[ZInD](https://github.com/zillow/zind).**<br>
 Zillow Indoor Dataset: Annotated Floor Plans With 360º Panoramas and 3D Room Layouts <br>
