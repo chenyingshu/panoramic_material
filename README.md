@@ -45,6 +45,23 @@ Features:
   - Object annotations (37 cateogories, incld. light)  
 <br>
 
+**[InteriorNet](https://interiornet.org/) (LARGE)**<br>
+InteriorNet: Mega-scale Multi-sensor Photo-realistic Indoor Scenes Dataset<br>
+Wenbin Li, Sajad Saeedi, John McCormac, Ronald Clark, Dimos Tzoumanikas, Qing Ye, Yuzhong Huang, Rui Tang and Stefan Leutenegger <br>
+British Machine Vision Conference (BMVC), 2018. <br>
+[[Project](https://interiornet.org/)]
+
+Features:
+- Professional designed indoor CAD models
+- 10,000 scenes
+- 1.7 million rooms 
+- Information:
+  - rearrangement
+  - random lighting
+  - depth
+  - semantic instance
+  - semantic class segmentation.
+
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling<br>
 _Jia Zheng*, Junfei Zhang*, Jing Li, Rui Tang, Shenghua Gao, Zihan Zhou_ <br>
@@ -53,7 +70,7 @@ European Conference on Computer Vision (ECCV), 2020<br>
 
 Features:
 - _Synthetic_ indoor scenes 
-- 
+- 3,500 scenes, 21,835 roomd
 - Rendering contains empty/unfurnished (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
 - Information: 
   - 2d rendering (raw, cold, wram lighting)
