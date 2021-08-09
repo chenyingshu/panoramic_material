@@ -49,7 +49,7 @@ Features:
 InteriorNet: Mega-scale Multi-sensor Photo-realistic Indoor Scenes Dataset<br>
 Wenbin Li, Sajad Saeedi, John McCormac, Ronald Clark, Dimos Tzoumanikas, Qing Ye, Yuzhong Huang, Rui Tang and Stefan Leutenegger <br>
 British Machine Vision Conference (BMVC), 2018. <br>
-[[Project](https://interiornet.org/)]
+[[Project](https://interiornet.org/)] [[Paper](https://interiornet.org/items/interiornet_paper.pdf)]
 
 Features:
 - Professional designed indoor CAD models
