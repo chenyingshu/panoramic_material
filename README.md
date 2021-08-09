@@ -22,7 +22,7 @@ Conference or Journal Year. [[PDF](link)] [[Project](link)] [[Github](link)] [[V
 
 **[Laval HDR database](http://indoor.hdrdb.com/).**<br>
 Learning to Predict Indoor Illumination from a Single Image <br>
-Gardner, M.-A., Sunkavalli, K., Yumer, E., Shen, X., Gambaretto, E., Gagné, C., and Lalonde, J.F. <br>
+_Gardner, M.-A., Sunkavalli, K., Yumer, E., Shen, X., Gambaretto, E., Gagné, C., and Lalonde, J.F._ <br>
 ACM Transactions on Graphics (SIGGRAPH Asia), 9(4), 2017.<br>
 [[Paper](https://dl.acm.org/doi/10.1145/3130800.3130891)] [[Project](http://vision.gel.ulaval.ca/~jflalonde/publications/projects/deepIndoorLight/)] [[HDR Data](http://indoor.hdrdb.com/)] [[SUN360 Data Info](http://vision.gel.ulaval.ca/~jflalonde/publications/projects/deepIndoorLight/#data)]
 
@@ -39,21 +39,43 @@ Features:
 
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling<br>
-Jia Zheng*, Junfei Zhang*, Jing Li, Rui Tang, Shenghua Gao, Zihan Zhou <br>
+_Jia Zheng*, Junfei Zhang*, Jing Li, Rui Tang, Shenghua Gao, Zihan Zhou_ <br>
 European Conference on Computer Vision (ECCV), 2020<br>
 [[Code](https://github.com/bertjiazheng/Structured3D)] [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540494.pdf)] [[Supplementary Material](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123540494-supp.pdf)] [[Benchmark](https://competitions.codalab.org/competitions/24183)]
 
 Features:
 - _Synthetic_ indoor scenes 
+- 
 - Rendering contains empty/unfurnished (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
-- Information: 2d rendering (raw, cold, wram lighting), normal, depth, albedo, semantic (annotate light fixtures), structure/layout annotation (wall, ceiling, floor).
+- Information: 
+  - 2d rendering (raw, cold, wram lighting)
+  - normal
+  - depth
+  - albedo
+  - semantic (also annotate light fixtures)
+  - structure/layout annotation (wall, ceiling, floor).
 <br>
 
 **Matterport3D**
 
 **Matterport3D Variants**
 
-**ZInD**
+**[ZInD](https://github.com/zillow/zind).**<br>
+Zillow Indoor Dataset: Annotated Floor Plans With 360º Panoramas and 3D Room Layouts <br>
+_Steve Cruz*, Will Hutchcroft*, Yuguang Li, Naji Khosravan, Ivaylo Boyadzhiev, Sing Bing Kang_ <br>
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021<br>
+[[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Cruz_Zillow_Indoor_Dataset_Annotated_Floor_Plans_With_360deg_Panoramas_and_CVPR_2021_paper.pdf)]
+[[Supplementary Material](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Cruz_Zillow_Indoor_Dataset_CVPR_2021_supplemental.pdf)]
 
+Features:
+- _Real_ residential rooms
+- 1575 scenes
+- Unfurnished rooms (decorated with basic lights, e.g. ceilling lamps)
+- Information:
+  - Panoramas of daytime captures with lights on
+  - Layout annotation (wall, ceilling, floor, window, door)
+  - Floor plans (raster, vector)
+  
+<br>
 
 ## Papers
