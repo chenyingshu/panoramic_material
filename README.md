@@ -1,5 +1,5 @@
-# <p align='center'>`awesome panoramic materials`</p>
-Some panoramic datasets and related papers.
+# <p align='center'>`awesome indoor panoramic materials`</p>
+Some indoor panoramic datasets and related papers.
 
 <!-- ## Contributing
 
@@ -20,6 +20,12 @@ Conference or Journal Year. [[PDF](link)] [[Project](link)] [[Github](link)] [[V
 
 ## Panoramic Datasets
 
+**Laval HDR database**
+
+**360-Indoor**
+
+**Im2Pano3D**
+
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**
 
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling
@@ -34,6 +40,8 @@ Features:
 - Synthetic indoor scenes 
 - Rendering contains empty (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
 - Information: 2d rendering (raw, cold, wram lighting), normal, depth, albedo, semantic (annotate light fixtures)
+
+**ZInD**
 
 
 ## Papers
