@@ -33,7 +33,7 @@ Features:
 - Around 400 light sources hand-labeled LDR panoramas (SUN360).
 <br>
 
-**360-Indoor**
+**360-Indoor.**<br>
 360-Indoor: Towards Learning Real-World Objects in 360° Indoor Equirectangular Images<br>
 _Shih-Han Chou, Cheng Sun, Wen-Yen Chang, Wan-Ting Hsu, Min Sun, Jianlong Fu_<br>
 Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 2020.<br>
