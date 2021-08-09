@@ -100,3 +100,4 @@ Features:
 <br>
 
 ## Papers
+### Lighting related papers using panoramas
