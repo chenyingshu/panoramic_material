@@ -45,7 +45,7 @@ European Conference on Computer Vision (ECCV), 2020<br>
 
 Features:
 - _Synthetic_ indoor scenes 
-- Rendering contains empty (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
+- Rendering contains empty/unfurnished (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
 - Information: 2d rendering (raw, cold, wram lighting), normal, depth, albedo, semantic (annotate light fixtures), structure/layout annotation (wall, ceiling, floor).
 <br>
 
