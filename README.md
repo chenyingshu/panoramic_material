@@ -55,6 +55,7 @@ Features:
 - Professional designed indoor CAD models
 - 10,000 scenes
 - 1.7 million rooms 
+- Released dataset (consisting of the rendered sequences and images) as well as ExaRenderer, ViSim, and a subset of the 3D models and layouts used for evaluations.
 - Information:
   - rearrangement
   - random lighting
