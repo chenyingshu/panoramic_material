@@ -1,5 +1,6 @@
-# <p align='center'>`awesome indoor panoramic materials`</p>
-Some indoor panoramic datasets and related papers.
+# <p align='center'>`awesome indoor panoramic materials`<br>`awesome indoor lighting papers`</p>
+
+Some indoor panoramic datasets and related indoor lighting papers.
 
 <!-- ## Contributing
 
@@ -119,3 +120,45 @@ Features:
 
 ## Papers
 ### Lighting related papers using panoramas
+**Learning to Estimate Indoor Lighting from 3D Objects**<br>
+_Weber, Henrique, Donald Prévost, and Jean-François Lalonde_.<br>
+International Conference on 3D Vision (3DV). IEEE, 2018.<br>
+[[Code](https://github.com/weberhen/learning_indoor_lighting)] [[Project](http://vision.gel.ulaval.ca/~jflalonde/publications/projects/illumPredict/index.html)] [[Paper](https://arxiv.org/abs/1806.03994)]
+
+**Deep Parametric Indoor Lighting Estimation**<br>
+_Marc-Andre Gardner, Yannick Hold-Geoffroy, Kalyan Sunkavalli, Christian Gagne, Jean-Francois Lalonde_. <br>
+In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) 2019.<br>
+[[Reproduce Code](https://github.com/WinterCyan/Gardner2019)] [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Gardner_Deep_Parametric_Indoor_Lighting_Estimation_ICCV_2019_paper.html)]
+
+**Deep Lighting Environment Map Estimation from Spherical Panoramas**<br>
+_Gkitsas, V., Zioulis, N., Alvarez, F., Zarpalas, D., & Daras, P._<br>
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2020.<br>
+[[Code](https://github.com/VCL3D/DeepPanoramaLighting)] [[Project](https://vcl3d.github.io/DeepPanoramaLighting/)] [[Paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w38/Gkitsas_Deep_Lighting_Environment_Map_Estimation_From_Spherical_Panoramas_CVPRW_2020_paper.pdf)]
+
+**[hot:fire:] Lighthouse: Predicting Lighting Volumes for Spatially-Coherent Illumination**<br>
+_Pratul P. Srinivasan, Ben Mildenhall, Matthew Tancik, Jonathan T. Barron, Richard Tucker, Noah Snavely._ <br>
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. <br>
+[[Code](https://github.com/pratulsrinivasan/lighthouse)] [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Srinivasan_Lighthouse_Predicting_Lighting_Volumes_for_Spatially-Coherent_Illumination_CVPR_2020_paper.html)]
+- I/O: panorama, panoramic lighting map
+- Data: InteriorNet
+
+**[hot:fire:] Inverse Rendering for Complex Indoor Scenes: Shape, Spatially-Varying Lighting and SVBRDF from a Single Image** <br>
+_Zhengqin Li, Mohammad Shafiei, Ravi Ramamoorthi, Kalyan Sunkavalli, Manmohan Chandraker._ <br>
+In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020. <br>
+[[Code and Data](https://github.com/lzqsd/InverseRenderingOfIndoorScene)] [[Project](http://cseweb.ucsd.edu/~viscomp/projects/CVPR20InverseIndoor/)]
+- Data: OpenRooms (CVPR2021)
+
+**HDR Environment Map Estimation for Real-Time Augmented Reality**<br>
+_Gowri Somanath, Daniel Kurz._
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.<br>
+[[Code](https://github.com/apple/ml-envmapnet)] [[Project](https://machinelearning.apple.com/research/hdr-environment-map-estimation)] [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Somanath_HDR_Environment_Map_Estimation_for_Real-Time_Augmented_Reality_CVPR_2021_paper)]
+- I/O: LDR normal single image; HDR panoramic environmental map
+- Data: Laval HDR Database
+
+**Lighting, Reflectance and Geometry Estimation from 360° Panoramic Stereo**<br>
+_Li, Junxuan, Hongdong Li, and Yasuyuki Matsushita._ <br>
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021.
+[[Code](https://github.com/junxuan-li/LRG_360Panoramic)] [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Lighting_Reflectance_and_Geometry_Estimation_From_360deg_Panoramic_Stereo_CVPR_2021_paper)]
+- I/O: two (top+bottom) **stereo** panoramas (and predicted depth); panoramic lighting, reflectance and geometry estimation
+- Dataset: Structured3D panoramas (training), [360SD-Net](https://albert100121.github.io/360SD-Net-Project-Page/) (stereo input, depth estimation)
+
