@@ -139,7 +139,9 @@ In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recogni
 _Pratul P. Srinivasan, Ben Mildenhall, Matthew Tancik, Jonathan T. Barron, Richard Tucker, Noah Snavely._ <br>
 In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020. <br>
 [[Code](https://github.com/pratulsrinivasan/lighthouse)] [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Srinivasan_Lighthouse_Predicting_Lighting_Volumes_for_Spatially-Coherent_Illumination_CVPR_2020_paper.html)]
-- I/O: panorama, panoramic lighting map
+- I/O: panoramas, panoramic lighting map
+- Input: stereo pair of RGB images
+- Outpu: a multiscale RGBA lighting volume
 - Data: InteriorNet
 
 **[hot:fire:] Inverse Rendering for Complex Indoor Scenes: Shape, Spatially-Varying Lighting and SVBRDF from a Single Image** <br>
