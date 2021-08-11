@@ -16,10 +16,11 @@ Conference or Journal Year. [[PDF](link)] [[Project](link)] [[Github](link)] [[V
 ``` -->
 
 ## Table of Contents
-- [Panoramic Datasets](#panoramic-datasets)
+- [Panoramic Indoor Datasets](#panoramic-indoor-datasets)
+- [Other Indoor Datasets](#other-indoor-datasets)
 - [Papers using Panoramas](#papers)
 
-## Panoramic Datasets
+## Panoramic Indoor Datasets
 
 **[Laval HDR database](http://indoor.hdrdb.com/).**<br>
 Learning to Predict Indoor Illumination from a Single Image <br>
@@ -46,23 +47,6 @@ Features:
   - Object annotations (37 cateogories, incld. light)  
 <br>
 
-**[InteriorNet](https://interiornet.org/) (LARGE)**<br>
-InteriorNet: Mega-scale Multi-sensor Photo-realistic Indoor Scenes Dataset<br>
-Wenbin Li, Sajad Saeedi, John McCormac, Ronald Clark, Dimos Tzoumanikas, Qing Ye, Yuzhong Huang, Rui Tang and Stefan Leutenegger <br>
-British Machine Vision Conference (BMVC), 2018. <br>
-[[Project](https://interiornet.org/)] [[Paper](https://interiornet.org/items/interiornet_paper.pdf)]
-
-Features:
-- Professional designed indoor CAD models
-- 10,000 scenes
-- 1.7 million rooms 
-- Released dataset (consisting of the rendered sequences and images) as well as ExaRenderer, ViSim, and a subset of the 3D models and layouts used for evaluations.
-- Information:
-  - rearrangement
-  - random lighting
-  - depth
-  - semantic instance
-  - semantic class segmentation.
 
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling<br>
@@ -117,6 +101,26 @@ Features:
   - Floor plans (raster, vector)
   
 <br>
+
+## Other Indoor Datasets
+
+**[InteriorNet](https://interiornet.org/) (LARGE)**<br>
+InteriorNet: Mega-scale Multi-sensor Photo-realistic Indoor Scenes Dataset<br>
+Wenbin Li, Sajad Saeedi, John McCormac, Ronald Clark, Dimos Tzoumanikas, Qing Ye, Yuzhong Huang, Rui Tang and Stefan Leutenegger <br>
+British Machine Vision Conference (BMVC), 2018. <br>
+[[Project](https://interiornet.org/)] [[Paper](https://interiornet.org/items/interiornet_paper.pdf)]
+
+Features:
+- Professional designed indoor CAD models
+- 10,000 scenes
+- 1.7 million rooms 
+- Released dataset (consisting of the rendered sequences and images) as well as ExaRenderer, ViSim, and a subset of the 3D models and layouts used for evaluations.
+- Information:
+  - rearrangement
+  - random lighting
+  - depth
+  - semantic instance
+  - semantic class segmentation.
 
 ## Papers
 ### Lighting related papers using panoramas
