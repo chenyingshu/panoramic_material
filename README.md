@@ -93,7 +93,7 @@ Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (C
 
 Features:
 - _Real_ residential rooms
-- 1575 scenes
+- 1575 scenes (71,474 panoramas in 1524 unfurnished rediential homes)
 - Unfurnished rooms (decorated with basic lights, e.g. ceilling lamps)
 - Information:
   - Panoramas of daytime captures with lights on
