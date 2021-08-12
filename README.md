@@ -56,7 +56,7 @@ European Conference on Computer Vision (ECCV), 2020<br>
 
 Features:
 - _Synthetic_ indoor scenes 
-- 3,500 scenes, 21,835 roomd
+- 3,500 scenes, 21,835 rooms
 - Rendering contains empty/unfurnished (w/ all lights), full(w/ all lights), simple versions(w/ all lights)
 - Information: 
   - 2d rendering (raw, cold, wram lighting)
