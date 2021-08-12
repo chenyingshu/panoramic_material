@@ -46,7 +46,7 @@ Features:
 - Information:
   - Object annotations (37 cateogories, incld. light)  
 <br>
-
+<!--  -->
 
 **[Structured3D](https://structured3d-dataset.org/) (panoramas).**<br>
 Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling<br>
