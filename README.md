@@ -67,7 +67,23 @@ Features:
   - structure/layout annotation (wall, ceiling, floor).
 <br>
 
-**Matterport3D**
+**[Matterport3D] (https://niessner.github.io/Matterport/)**
+Matterport3D: Learning from RGB-D Data in Indoor Environments<br>
+_A. Chang, A. Dai, T. Funkhouser, M. Halber, M. Niessner, M. Savva, S. Song, A. Zeng, Y. Zhang_<br>
+International Conference on 3D Vision (3DV 2017)
+[[Project](https://niessner.github.io/Matterport/)] [[Code]()] [[Paper](https://arxiv.org/pdf/1709.06158.pdf)]
+
+Features:
+- A large-scale RGB-D dataset containing 10,800 panoramic views from 194,400 RGB-D images of 90 building-scale scenes.
+- Information:
+  - RGB
+  - HDR
+  - Depth
+  - Normal
+  - Semantic
+  - Camera poses
+  - Textured 3D mesh
+<br>
 
 **Matterport3D Variants - Im2Pano3D (RGB-D Panorama).**<br>
 Im2Pano3D: Extrapolating 360° Structure and Semantics Beyond the Field of View <br>
