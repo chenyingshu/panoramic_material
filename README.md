@@ -67,7 +67,7 @@ Features:
   - structure/layout annotation (wall, ceiling, floor).
 <br>
 
-**[Matterport3D] (https://niessner.github.io/Matterport/)**
+**[Matterport3D] (https://niessner.github.io/Matterport/)**<br>
 Matterport3D: Learning from RGB-D Data in Indoor Environments<br>
 _A. Chang, A. Dai, T. Funkhouser, M. Halber, M. Niessner, M. Savva, S. Song, A. Zeng, Y. Zhang_<br>
 International Conference on 3D Vision (3DV 2017)
@@ -132,11 +132,18 @@ Features:
 - 1.7 million rooms 
 - Released dataset (consisting of the rendered sequences and images) as well as ExaRenderer, ViSim, and a subset of the 3D models and layouts used for evaluations.
 - Information:
+  - rendered perpective sequences and **panoramas** (pano: except for HD7)
   - rearrangement
   - random lighting
   - depth
   - semantic instance
   - semantic class segmentation.
+
+The InteriorNet dataset is split into the following: (ref: [InteriorNet2ROSBag](https://github.com/ethz-asl/interiornet_to_rosbag))
+1. 705 scenes with 3 ground truth trajectories and IMU data, color and depth images, ground truth instance images, with 1000 frames each, at 25 frames per second. Each trajectory is available in regular lighting and random lighting. *[HD1-HD6]*
+
+
+2. 20000 scenes with 20 random views containing ground truth camera pose, color and depth images and ground truth instance and object class images. These views are also available in both regular lighting and random lighting. *[HD7]*
 
 ## Papers
 ### Lighting related papers using panoramas
