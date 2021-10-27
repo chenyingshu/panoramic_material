@@ -162,6 +162,30 @@ Features:
   - 3D segmentation
   - ReplicaRenderer
 
+**[Hypersim](https://machinelearning.apple.com/research/hypersim).**<br>
+Hypersim: A Photorealistic Synthetic Dataset for Holistic Indoor Scene Understanding <br>
+Mike Roberts, Jason Ramapuram, Anurag Ranjan, Atulit Kumar, Miguel Angel Bautista, Nathan Paczan, Russ Webb, Joshua M. Susskind<br>
+ICCV, 2021. <br>
+[[Project](https://mikeroberts3000.github.io/papers/hypersim/)] [[Apple News](https://machinelearning.apple.com/research/hypersim)]
+[[Code](http://github.com/apple/ml-hypersim)] [[Paper](http://arxiv.org/abs/2011.02523)] 
+
+Features:
+- 461 scenes
+- 77,400 images
+- 3D meshes
+- HRD images
+- Semantic segmentation
+- Instance segmentation
+- Diffuse + residule for images intrinsics
+- rendered in 3DMax, VRay renderer
+- Information of data:
+  - Lossy preview of prespective images
+  - Lossless prespective images data (hd5f)
+  - GT camera information
+  - Rendering settings
+  - 3D meshes (hd5f)
+  - 2D and 3D segmentations
+
 
 ## Papers
 ### Lighting related papers using panoramas
