@@ -67,7 +67,7 @@ Features:
   - structure/layout annotation (wall, ceiling, floor).
 <br>
 
-**[Matterport3D] (https://niessner.github.io/Matterport/)**<br>
+**[Matterport3D](https://niessner.github.io/Matterport/).**<br>
 Matterport3D: Learning from RGB-D Data in Indoor Environments<br>
 _A. Chang, A. Dai, T. Funkhouser, M. Halber, M. Niessner, M. Savva, S. Song, A. Zeng, Y. Zhang_<br>
 International Conference on 3D Vision (3DV 2017)
@@ -144,6 +144,24 @@ The InteriorNet dataset is split into the following: (ref: [InteriorNet2ROSBag](
 
 
 2. 20000 scenes with 20 random views containing ground truth camera pose, color and depth images and ground truth instance and object class images. These views are also available in both regular lighting and random lighting. *[HD7]*
+
+
+**[Replica](https://github.com/facebookresearch/Replica-Dataset).**<br>
+The Replica dataset: A digital replica of indoor spaces<br>
+Julian Straub and Thomas Whelan and Lingni Ma and Yufan Chen and Erik Wijmans and Simon Green and Jakob J. Engel and Raul Mur-Artal and Carl Ren and Shobhit Verma and Anton Clarkson and Mingfei Yan and Brian Budge and Yajie Yan and Xiaqing Pan and June Yon and Yuyang Zou and Kimberly Leon and Nigel Carter and Jesus Briales and  Tyler Gillingham and  Elias Mueggler and Luis Pesqueira and Manolis Savva and Dhruv Batra and Hauke M. Strasdat and Renzo De Nardi and Michael Goesele and Steven Lovegrove and Richard Newcombe  <br>
+arXiv, 2019. <br>
+[[Code](https://github.com/facebookresearch/Replica-Dataset)] [[Paper](https://arxiv.org/abs/1906.05797)]
+
+Features:
+- 18 3D reconstructed scenes
+- provide own renderer: ReplicaRenderer 
+- Information:
+  - 3D mesh 
+  - Some surface materials such as glass, mirrors
+  - Texture
+  - 3D segmentation
+  - ReplicaRenderer
+
 
 ## Papers
 ### Lighting related papers using panoramas
