@@ -21,6 +21,10 @@ Conference or Journal Year. [[PDF](link)] [[Project](link)] [[Github](link)] [[V
 - [Papers using Panoramas](#papers)
 
 ## Panoramic Indoor Datasets
+**360Roam** <br>
+360Roam: Real-Time Indoor Roaming Using Geometry-Aware 360ᵒ Radiance Fields <br>
+Huajian Huang, Yingshu Chen, Tianjia Zhang and Sai-Kit Yeung<br>
+[[To be released]()]
 
 **[Laval HDR database](http://indoor.hdrdb.com/).**<br>
 Learning to Predict Indoor Illumination from a Single Image <br>
